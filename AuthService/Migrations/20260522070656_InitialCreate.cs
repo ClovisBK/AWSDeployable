@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AuthService.Migrations
 {
     /// <inheritdoc />
-    public partial class MigrationWithSeeding : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -188,7 +188,7 @@ namespace AuthService.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "Phone", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "100", 0, "39e2193d-7579-44a8-9de2-009bba35585c", "wakebeh14@gmail.com", true, "Wa Kebeh Mbong", false, null, "WAKEBEH14@GMAIL.COM", "ADMIN@SYSTEM.COM", "AQAAAAIAAYagAAAAEMOiDUY+PxfcQ91KxZj0Vpy4KbqWW3dTK7zv8itXsS2dAdg/l67YCVobWh0wGasb3Q==", "676455676", null, false, "e57576d9-cc53-4d04-8097-f68e9488f7cd", false, "admin@system.com" });
+                values: new object[] { "100", 0, "97666d72-fc63-4230-b276-fb952c0c0146", "wakebeh14@gmail.com", true, "Wa Kebeh Mbong", false, null, "WAKEBEH14@GMAIL.COM", "ADMIN@SYSTEM.COM", "AQAAAAIAAYagAAAAELL1iEAJKUlgRYMxVZX8nN08uMIMrrcfxW+h21tO2bb0RJ3/oR9yCWaWX2RTflbbmA==", "676455676", null, false, "8a3c1d78-3d8d-4614-b08e-728e09b49a73", false, "admin@system.com" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

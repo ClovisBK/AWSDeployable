@@ -17,14 +17,14 @@ namespace AuthService.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IJwtService _jwtService;
-        private readonly AuthDbContext _context;
+        private readonly AppDbContext _context;
 
 
         public AuthController(
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IJwtService jwtService,
-            AuthDbContext context)
+            AppDbContext context)
         {
             _context = context;
             _userManager = userManager;
@@ -86,7 +86,10 @@ namespace AuthService.Controllers
             return Ok(new AuthResponseDto
             {
                 AccessToken = accessToken,
-                RefreshToKen = refreshToken.Token
+                RefreshToKen = refreshToken.Token,
+                FullName = user.FullName!,
+                Email = user.Email!
+                
             });
         }
         [HttpPost("create-role")]

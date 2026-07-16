@@ -4,6 +4,7 @@ using AuthService.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuthService.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AuthDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260522104558_CreateDatabaseModels")]
+    partial class CreateDatabaseModels
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,17 +100,17 @@ namespace AuthService.Migrations
                         {
                             Id = "100",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ef092cee-7805-44a2-9ea4-e3502203a9a7",
+                            ConcurrencyStamp = "b3ce6919-5e77-47a7-a1ae-bc1f07e60bd5",
                             Email = "wakebeh14@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Wa Kebeh Mbong",
                             LockoutEnabled = false,
                             NormalizedEmail = "WAKEBEH14@GMAIL.COM",
                             NormalizedUserName = "ADMIN@SYSTEM.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOqvIW/Z692oMErGsFD48FXI2UuTRcSHB++H+m4JNiQRSLkMclOe+jYcv25JxyCERw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOgQQq8IAZeEudn+CRaZOehN2ncMajdQ2Qo4d4TffMUEXsql4ciB+PQd18FXy9Y4Tw==",
                             Phone = "676455676",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "dac0cdcf-f1a6-4ffb-b6dc-e70af6766d54",
+                            SecurityStamp = "ae12f390-ca6b-4592-817d-ea39a0ea315d",
                             TwoFactorEnabled = false,
                             UserName = "admin@system.com"
                         });
@@ -121,10 +124,6 @@ namespace AuthService.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("AvailableCopies")
                         .HasColumnType("int");
 
@@ -135,10 +134,6 @@ namespace AuthService.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ISBN")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageUrl")
@@ -187,7 +182,7 @@ namespace AuthService.Migrations
                     b.Property<DateTime?>("BorrowDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DueDate")
+                    b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("RequestDate")
@@ -260,12 +255,12 @@ namespace AuthService.Migrations
                     b.Property<DateTime>("ReservationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("status")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

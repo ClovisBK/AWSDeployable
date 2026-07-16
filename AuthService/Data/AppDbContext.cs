@@ -5,11 +5,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthService.Data
 {
-    public class AuthDbContext :IdentityDbContext<ApplicationUser>
+    public class AppDbContext :IdentityDbContext<ApplicationUser>
     {
-        public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<RefreshToken> RefreshTokens { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Loan> Loans { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
