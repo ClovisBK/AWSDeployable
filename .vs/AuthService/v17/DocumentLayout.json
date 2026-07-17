@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|c:\\users\\kebeh clovis bin\\onedrive\\desktop\\apiproject\\authenticationtemplate\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|c:\\users\\kebeh clovis bin\\onedrive\\desktop\\apiproject\\authenticationtemplate\\authservice\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|c:\\users\\kebeh clovis bin\\onedrive\\desktop\\apiproject\\authenticationtemplate\\authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|solutionrelative:authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|c:\\users\\kebeh clovis bin\\onedrive\\desktop\\apiproject\\authenticationtemplate\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF378CD9-6AB7-4A30-89B9-1B712757B123}|AuthService\\AuthService.csproj|c:\\users\\kebeh clovis bin\\onedrive\\desktop\\apiproject\\authenticationtemplate\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -78,21 +78,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\appsettings.json",
-              "RelativeToolTip": "AuthService\\appsettings.json",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-22T07:05:47.547Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 16,
@@ -107,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "AuthService\\Controllers\\BooksController.cs",
@@ -119,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoansController.cs",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Controllers\\LoansController.cs",
               "RelativeDocumentMoniker": "AuthService\\Controllers\\LoansController.cs",
@@ -131,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "AuthService\\Controllers\\ReservationsController.cs",
               "ToolTip": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Controllers\\ReservationsController.cs",
               "RelativeToolTip": "AuthService\\Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T08:53:27.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
@@ -156,19 +143,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Program.cs",
               "RelativeDocumentMoniker": "AuthService\\Program.cs",
               "ToolTip": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Program.cs",
               "RelativeToolTip": "AuthService\\Program.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T05:50:49.465Z"
+              "WhenOpened": "2026-05-27T05:50:49.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\appsettings.json",
+              "RelativeToolTip": "AuthService\\appsettings.json",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-22T07:05:47.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Kebeh Clovis Bin\\OneDrive\\Desktop\\ApiProject\\AuthenticationTemplate\\AuthService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AuthService\\Properties\\launchSettings.json",
