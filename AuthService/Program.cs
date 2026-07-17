@@ -74,7 +74,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ÄllowAll",
+    options.AddPolicy("AllowAll",
         policy =>
         {
             policy.AllowAnyMethod().AllowAnyHeader().AllowAnyMethod();
